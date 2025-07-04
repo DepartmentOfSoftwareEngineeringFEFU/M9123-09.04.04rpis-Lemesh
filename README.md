@@ -16,11 +16,11 @@ git clone https://github.com/DepartmentOfSoftwareEngineeringFEFU/M9123-09.04.04r
 cd M9123-09.04.04rpis-Lemesh
 
 # 2. Создайте виртуальное окружение
-python -m venv .venv
+python -m venv myenv
 
 # 3. Активируйте окружение
 # Windows:
-.venv\Scripts\activate
+myenv\Scripts\activate
 
 # 4. Установите зависимости
 pip install -r requirements.txt
